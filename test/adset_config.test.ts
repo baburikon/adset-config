@@ -137,7 +137,7 @@ function getModules(args: Record<string, any>) {
         const childrenArg: any = node['childrenArg'];
         const existChildrenArg = childrenArg && args[childrenArg];
         if (existChildrenArg) {
-            const nodeId: any = args[childrenArg];
+            const nodeId: string = args[childrenArg];
             node = node['children'][nodeId];
         } else {
             node = getRandomChildNode(node);
