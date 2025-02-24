@@ -88,6 +88,21 @@ describe('AdSet config', () => {
     /**
      *
      */
+    it('041', () => {
+        const args: Record<string, any> = {};
+
+        const modules = getModules(args);
+
+        const result = {
+            'adset_id': 83476,
+            modules,
+        };
+        console.log(result);
+    });
+
+    /**
+     *
+     */
     it('05 stat', () => {
         const countExperiments = 1e3;
         const args: Record<string, any> = {
