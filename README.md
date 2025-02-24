@@ -1,1 +1,1 @@
-# adset-config
+npm run test adset_config.test.ts
